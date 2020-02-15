@@ -1,0 +1,20 @@
+.icon {
+  &-table {
+    thead tr td {
+      padding: 5px;
+      font-weight: bold;
+    }
+    tbody tr td {
+      vertical-align: top;
+    }
+
+    .issues {
+      color: red;
+    }
+  }
+  &-details {
+    p {
+      margin: 5px 10px;
+    }
+  }
+}
